@@ -1,0 +1,45 @@
+.confirmed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.confirmed img {
+    width:40px
+}
+
+.firstLine {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+.secondLine {
+    padding-bottom: 20px;
+    color: grey;
+    font-size: 14px;
+}
+
+.continueButton button {
+    margin-top: 20px;
+    height: 40px;
+    width: 315px;
+    border-radius: 4px;
+    background-color: rgb(32, 1, 32);
+    color: #fff;
+    border: none
+}
+
+.continueButton button:hover {
+    background-color: rgb(148, 9, 148);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 968px) {
+    .confirmed {
+      margin-top: -350px;
+      margin-left: 200px
+    }
+  }

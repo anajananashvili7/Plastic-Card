@@ -1,0 +1,83 @@
+.label {
+    font-size: 12px;
+  }
+  
+  .input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 20px;
+    padding: 5px;
+    width: 300px;
+  }
+
+  .expiration {
+    border: 1px solid #bbbbbb;
+}
+
+
+.expiration input {
+    border: 0;
+}
+
+
+.exparationInputs {
+    display: flex;
+    gap: 20px
+}
+
+.inputExp input {
+    height: 20px;
+    width: 40px;
+    border-radius: 5px;
+    border: 1px solid #bbbbbb;
+    margin-bottom: 10px;
+}
+
+.inputExp {
+    display: flex;
+    gap: 10px
+}
+
+.inputCvc {
+    width: 180px;  
+}
+
+.cvcInput input {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #bbbbbb;
+    width: 310px
+}
+
+.confirmButton button {
+margin-top: 20px;
+height: 40px;
+width: 315px;
+border-radius: 4px;
+background-color: rgb(32, 1, 32);
+color: #fff;
+border: none
+}
+
+.confirmButton button:hover {
+    background-color: rgb(148, 9, 148);
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  
+
+
+  @media screen and (max-width: 968px) {
+    .inputsResp {
+      margin-top: -400px;
+      margin-left: 200px
+    }
+  }
+
+
+
